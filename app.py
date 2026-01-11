@@ -701,7 +701,7 @@ with tab_by_category:
 # TAB 3: SEARCH VIDEOS
 # =============================================================================
 with tab_search:
-    st.caption("Search for videos on YouTube and see results with engagement metrics")
+    st.caption("Search for videos on YouTube and see results including country of origin")
     
     # Search input
     search_query = st.text_input(
