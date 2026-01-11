@@ -1,0 +1,19 @@
+[project]
+name = "top-canadian-youtube-videos"
+version = "0.1.0"
+description = "Find the top YouTube videos in Canada and get the origin for each channel"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-api-python-client>=2.187.0",
+    "pandas>=2.3.3",
+    "plotly>=6.5.1",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.52.2",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+]
